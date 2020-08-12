@@ -55,7 +55,7 @@ function Toolbar() {
 
         stopIcon.onclick = function() {
             onclick();
-            stopIcon.style.color = "purple";
+            stopIcon.style.color = "white";
         };
     };
 
