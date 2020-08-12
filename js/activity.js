@@ -2168,6 +2168,8 @@ function Activity() {
         if (!searchInput || searchInput.length <= 0) return;
 
         let protoblk = searchWidget.protoblk;
+        //maybe change the .name to .super?
+        //need to ask how to test first though so i can see the effect of the change...
         let paletteName = protoblk.palette.name;
         let protoName = protoblk.name;
 
